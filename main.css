@@ -5,7 +5,7 @@
     transition: 0.5s ease-in-out;
 }
 
-.container-light{
+.container{
     height:100vh;
     width:100vw;
     background:#e5e9ef;
@@ -13,28 +13,20 @@
     justify-content: center;
     align-items: center;
 }
-.container-dark{
-    height:100vh;
-    width:100vw;
+.container.dark{
     background:#191818;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.calculator-light{
+.calculator{
     height:450px;
-    width:300px;
+    width:300px;    
     background: #ecf0f3;
     border-radius: 15px;
     box-shadow:  8px 8px 10px 0 rgba(46, 46, 46, 0.3),
     -6px -6px 10px 0 rgba(255, 255, 255, 0.7);
 }
-.calculator-dark{
-    height:450px;
-    width:300px;
+.calculator.dark{
     background: #1c1c1c;
-    border-radius: 15px;
     box-shadow:  8px 8px 10px 0 rgba(0, 0, 0, 0.5),
     -6px -6px 10px 0 rgba(77, 77, 77, 0.2);
 }
@@ -97,7 +89,7 @@ form .input-dark{
     justify-content: center;
 }
 
-.toggleImageLight{
+.toggleImage{
     position:relative;
     content: 'LIGHT';
     height:45px;
@@ -109,10 +101,9 @@ form .input-dark{
     border-radius: 50%;
     top:48px;
     left:5px;
-    /* border: 1px solid rgba(254,202,39,1); */
 }
 
-.toggleImageDark{
+.toggleImage.dark{
     position:relative;
     content: 'DARK';
     height:45px;
@@ -124,11 +115,9 @@ form .input-dark{
     border-radius: 50%;
     top:48px;
     left:130px;
-    /* border: 1px solid rgb(79, 79, 79); */
 }
 
-
-.toggle-button-light{
+.toggle-button{
     height:50px;
     width: 180px;
     border-radius: 30px;
@@ -137,7 +126,7 @@ form .input-dark{
     -6px -6px 10px 0 rgba(255, 255, 255, 0.9) inset;
 }
 
-.toggle-button-dark{
+.toggle-button.dark{
     height:50px;
     width: 180px;
     border-radius: 30px;
